@@ -1,0 +1,30 @@
+.contenedor {
+  background-color: #f5f5f0;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.hover {
+  margin: 0;
+  padding: 1px;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  line-height: 30px;
+  padding-left: 5px;
+  color: #000;
+}
+
+#active {
+  background-color: #f9a91a;
+  color: #FFF;
+}
+
+.hover:hover, #active:hover {
+  background-color: #e0e0d1;
+  color: #333;
+}
